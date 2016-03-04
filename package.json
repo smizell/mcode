@@ -1,0 +1,21 @@
+{
+  "name": "mcode",
+  "version": "0.0.1",
+  "description": "Markdown Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Stephen Mizell",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "eidolon": "^1.4.0",
+    "geneva": "^0.1.0",
+    "protagonist": "^1.2.6",
+    "refract-query": "0.0.1"
+  }
+}
