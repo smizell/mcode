@@ -49,3 +49,17 @@ mcode.msonToJson(msonAbove, function(error, result) {
   console.log(result); // Outputs ['!+', 5, 3]
 });
 ```
+
+## Command Line Tool
+
+Install `mcode` globally.
+
+```sh
+npm install mcode -g
+```
+
+Use the `run` command to run code.
+
+```sh
+mcode run filename.md
+```
